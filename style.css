@@ -1,0 +1,90 @@
+*{
+
+  box-sizing: border-box;
+}
+
+body{
+  display:flex;
+  justify-content: center;
+  height:96svh;
+  background-color: rgb(18, 14, 14);
+}
+
+main h1{
+  font-size: 2.5rem;
+  text-align: center;
+  color:  #DC143C
+}
+
+.container{
+  display:flex;
+  justify-content: space-around;
+  flex-wrap:wrap
+}
+
+.contained{
+  display: flex;
+  flex-direction: column;
+} 
+
+.contained label{
+  align-self:center;
+  font-size: 1.5rem;
+  color:cyan
+}
+
+.contained h3{
+  font-size:1.78rem;
+  color:#50C878
+}
+
+
+main h2{
+  text-align: center;
+}
+
+.btns{
+  display:flex;
+  justify-content: center;
+}
+
+.btn{
+  margin:10px 13px;
+  cursor:pointer;
+  padding:7px 20px;
+  background-color:cyan;
+  border:none;
+  border-radius: 6px;
+}
+
+.btn:hover{
+  box-shadow: 0 0 20px 5px cyan,
+              0 0 23px 8px cyan;
+}
+/* table */
+
+
+table {
+  min-width: 210px;
+  margin: auto;
+  border-collapse: collapse; /* Ensures borders collapse together */
+  color:  white
+}
+
+table tr {
+  border: 1px solid  rgb(124, 70, 70)
+}
+
+table th,
+table td {
+  padding: 8px; /* Adjust padding for better readability */
+  text-align: center;
+}
+
+h2{
+  color:white;
+}
+
+
+
+
